@@ -9,4 +9,4 @@ We had to make some kind of creative twist on Hangman, so we did the most uncrea
 
 Made in colaboration with Kevin and Jatin
 
-Original site is preserved at (http://www.the404.nl/software/hangman/)
+Original site is preserved at http://www.the404.nl/software/hangman
