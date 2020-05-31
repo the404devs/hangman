@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hangman 2 Classic Comeback.exe" version="3.1.0.5" publicKeyToken="4dedae3c04db2873" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="HangManIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hangman 2 Classic Comeback" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hangman 2 Classic Comeback.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hangman 2 Classic Comeback.exe" size="31579136">
+      <assemblyIdentity name="Hangman 2 Classic Comeback" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AApPjEfvS4OnlEdoaEYn1kpVbAY5wlLd9RDoCpuQbvI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Audio\Bob-ombBattlefield.wav" size="30214096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a1cJEivdYgmWiXrfrLcJT4XDEG6XFQXdhjZxl175No8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Audio\Bob-ombBattlefield.wav" size="30214096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a1cJEivdYgmWiXrfrLcJT4XDEG6XFQXdhjZxl175No8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan0.png" size="828">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J7HUy/Bm4UxJ7CEL8jWWc6EPC3jr3qFiHVyM5UBPyV4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan1.png" size="2206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DHM9pj7CN6rk4lgs/Ga54VdNY7bGysBHdDTA8/4PMJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan2.png" size="2544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>St83lNM0pR1TbOL8+uy1F34gvvo5h4ELFXiRwK0OQ78=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan3.png" size="2670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E5BdrMPRyNmyqIKraxi3Pqo1vc0FneaUI+nH9twcX6k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan4.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E5NCiC49QNlQog/NtPGgVW/Y2syX6LA1TA2G7GZvnwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan5.png" size="2824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AZ35G7qBVBY6cYJnJ7gCzHCd56YvGsyh7C8ED9KFqPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan6.png" size="2938">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RveoMhsXN/imL0nBEgiimQ0SQF3TUcqGVVuQjcgMhz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangMan7.png" size="9324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>np6TBUo9cm62sZ+sbAaN/0HRwhT9S3FXuSl8uRaL+Zg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangManIcon.ico" size="116880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibCu10+E2+l2hGiuRhdTG+0ISaRPa0A2cGIXI6oWSgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\HangmanIcon.png" size="28432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6kOpJTs01J+g6wfkQwIMfTJ+Zg1HS+K95hanFR5LAko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\musicoff.png" size="3179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOQLmu3ZciEK4Mmtt8dVgq+AGDIdrCZBU8GunT922/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\Images\musicon.png" size="2710">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cKGoScPB5DkwCQAZmls8dEs41z/2l9IutS2DqG4p0p4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\words.txt" size="453">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2j9XCUwhxMW7EkLPAc6TGpoD3deQn4JuIzcZZaAdsi8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Hangman 2 Classic Comeback.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HangManIcon.ico" size="116880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibCu10+E2+l2hGiuRhdTG+0ISaRPa0A2cGIXI6oWSgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan0.png" size="828">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J7HUy/Bm4UxJ7CEL8jWWc6EPC3jr3qFiHVyM5UBPyV4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan1.png" size="2206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DHM9pj7CN6rk4lgs/Ga54VdNY7bGysBHdDTA8/4PMJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan2.png" size="2544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>St83lNM0pR1TbOL8+uy1F34gvvo5h4ELFXiRwK0OQ78=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan3.png" size="2670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E5BdrMPRyNmyqIKraxi3Pqo1vc0FneaUI+nH9twcX6k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan4.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E5NCiC49QNlQog/NtPGgVW/Y2syX6LA1TA2G7GZvnwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan5.png" size="2824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AZ35G7qBVBY6cYJnJ7gCzHCd56YvGsyh7C8ED9KFqPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan6.png" size="2938">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RveoMhsXN/imL0nBEgiimQ0SQF3TUcqGVVuQjcgMhz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangMan7.png" size="9324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>np6TBUo9cm62sZ+sbAaN/0HRwhT9S3FXuSl8uRaL+Zg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangManIcon.ico" size="116880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibCu10+E2+l2hGiuRhdTG+0ISaRPa0A2cGIXI6oWSgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\HangmanIcon.png" size="28432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6kOpJTs01J+g6wfkQwIMfTJ+Zg1HS+K95hanFR5LAko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\musicoff.png" size="3179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOQLmu3ZciEK4Mmtt8dVgq+AGDIdrCZBU8GunT922/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\musicon.png" size="2710">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cKGoScPB5DkwCQAZmls8dEs41z/2l9IutS2DqG4p0p4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\AssemblyInfo.cs" size="1476">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UKzFy/MiDRxqfdii3gS6kIIZ1+EIAkKcOS4OQp8WTS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="words.txt" size="453">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2j9XCUwhxMW7EkLPAc6TGpoD3deQn4JuIzcZZaAdsi8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Glen-PC\Owen" issuerKeyHash="402fc6db7b85d87d78f82e51073350caf92457e9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gmS1XETo0v9he7SS5h1yhIeZrxlGBaOz/G0lATVcLQ0=</DigestValue></Reference></SignedInfo><SignatureValue>cHMlPuN2jxQW3Eo9+JThS8TR6ZTPWiuE/1E6u6tUG3sRwzNRls/pf2Q6c+qvIXWib8LJSzqMOZwTRubj9MYX1zQeKPovDmS+1Vr2Q0CWqcEPYrynSswdk7BgcJF8aT0fN+fiB81FFP9InVSz/ElXCToh2skrEbI5mLGJSpa6KvY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x8Z1Ty0UCvby0QzIcKjrZ39nMEoyUmO7DKgV4YO26SSgij6txHkniIKf5DzwhZ5dNjLIL34ve7zzO3gl/YDpyUghf4cRSFvGx8vTGKMLzMiW2a4ljpmwAniGF+FQ6TOGFHyOWd9h0eNC3LJvlIyRebo8dL2ufYYJJDvgzfJWFK8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0d2d5c3501256dfcb3a3054619af998784721de692b47b61ffd2e8445cb56482" Description="" Url=""><as:assemblyIdentity name="Hangman 2 Classic Comeback.exe" version="3.1.0.5" publicKeyToken="4dedae3c04db2873" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Glen-PC\Owen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Jy8xvInDgfewKi5S4nFV9DPHlyUkYImpYqg4/7HtRTY=</DigestValue></Reference></SignedInfo><SignatureValue>KCSIcsmZiDXd0stjvIrVqcENudyMe2sdaWOm7PWFcXhjf3hG1MfYnrfwQqg7Z8xzDyHxuhKf47vuWSmvchVVQ1E4EK0mBzWKNVnEjASO8YrGwehBQpaCoQtBdGsRESI+mfDXVL3yEeRh+J0hYqUyr8i6z2Cje4b3kgEbRk0yNmA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x8Z1Ty0UCvby0QzIcKjrZ39nMEoyUmO7DKgV4YO26SSgij6txHkniIKf5DzwhZ5dNjLIL34ve7zzO3gl/YDpyUghf4cRSFvGx8vTGKMLzMiW2a4ljpmwAniGF+FQ6TOGFHyOWd9h0eNC3LJvlIyRebo8dL2ufYYJJDvgzfJWFK8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQHxVGtLszxYlGkNzRTBBGQjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wHhcNMTcxMTA2MDAwOTA2WhcNMTgxMTA2MDYwOTA2WjAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMfGdU8tFAr28tEMyHCo62d/ZzBKMlJjuwyoFeGDtukkoIo+rcR5J4iCn+Q88IWeXTYyyC9+L3u88zt4Jf2A6clIIX+HEUhbxsfL0xijC8zIltmuJY6ZsAJ4hhfhUOkzhhR8jlnfYdHjQtyyb5SMkXm6PHS9rn2GCSQ74M3yVhSvAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAqq1GnL5fa7xkzd2wtLhibL83ziMQWYF43sdhGGwn0rTa2gBao3KQsYWR7aWqvA1LEMMmZzOGs6gXqggAGc54+6zcTdycCrx4t2SLPVOWU/P0naG9bCMZvWqpCSzS2Brc3hV5rrreHEdVLn2gzs4sFcSXbjtbaQ94bz90R8MkJ0k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
