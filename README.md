@@ -10,3 +10,5 @@ We had to make some kind of creative twist on Hangman, so we did the most uncrea
 Made in colaboration with Kevin and Jatin
 
 Original site is preserved at http://www.the404.nl/software/hangman
+
+Featuring Hangman Repainted (11/05/17), same as the original, updated to match 404's colourscheme at the time
