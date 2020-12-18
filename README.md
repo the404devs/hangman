@@ -9,6 +9,6 @@ We had to make some kind of creative twist on Hangman, so we did the most uncrea
 
 Made in collaboration with Kevin and Jatin
 
-Original site is preserved at https://the404devs.github.io/hangman/hangman_original/
+Original site is preserved at https://hangman.the404.nl/hangman_original/
 
 Featuring Hangman Repainted (11/05/17), same as the original, updated to match 404's colourscheme at the time
